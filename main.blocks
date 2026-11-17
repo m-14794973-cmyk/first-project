@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="!P*^mjDkkLI%k/uS:xQ1">hewwo</variable></variables><block type="device_forever" id="=z;?LO(lRm]q.H_g{Z+}" x="0" y="0"><statement name="HANDLER"><block type="music_playable_play" id="AniFF.Ha460Cq3:_j@XO"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="?=aTcu9_KGE`CtIUL^ex"><value name="melody"><shadow type="melody_editor" id=":-AltH,#II8BCurfu[?}"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="+VEap`.5t4[kMdS/DUMx"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="Ru7!@j^Ghkz6o[MYF5F@"><value name="melody"><shadow type="melody_editor" id="RJ1-tL1S},8K(R;BfsdF"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="g!w`?OFY^]uUt.GOQhIv"><field name="melody">"A C5 B G F E F C "</field></block></value><value name="bpm"><shadow type="math_number_minmax" id="sxjOzt(rR#Q3}y*0I}6`"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">130</field></shadow></value></block></value><next><block type="device_plot_bar_graph" id="CdH(yb!nPf12-@Dc%?)="><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="value"><shadow type="math_number" id="!Ke|8#[okp7-vnFR!il0"><field name="NUM">12</field></shadow></value><value name="high"><shadow type="math_number" id="eFLhM)qx!k-3YjtlCc[8"><field name="NUM">45</field></shadow></value><value name="valueToConsole"><shadow type="toggleOnOff" id="+d8$=N1Vgm]7ow3=!M$O"><field name="on">true</field></shadow></value><next><block type="input_set_sound_threshold" id="eb*z#g6G2M5edykuCC=`"><field name="sound">SoundThreshold.Loud</field><value name="value"><shadow type="math_number_minmax" id="o[oebl{Q*4+oS,-$~sNm"><mutation min="0" max="255" label="Threshold" precision="0"></mutation><field name="SLIDER">128</field></shadow></value><next><block type="device_show_number" id="$ipJ0-cWe*YtV9ca6Gy,"><value name="number"><shadow type="math_number" id="d3%7xFO?FBk%`!*M}7E2"><field name="NUM">12</field></shadow></value><next><block type="device_show_leds" id="~|mvR%{6o;+/aevlj;R."><field name="LEDS">`
+        # # . # # 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="e=~F@mu:NT!X5B=;z}LE"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_number" id="#L5+{:=$((1`Bo!tBnlG"><value name="number"><shadow type="math_number" id="LH+%;j;k:r?e$uB^Q,~e"><field name="NUM">63</field></shadow></value><next><block type="device_show_leds" id="[V~p/I~?1Y0sh),0l2?2"><field name="LEDS">`
+        # # . # # 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="lYWx^q!0%?@8[3?Y)*MB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_show_number" id="Q;WX[jp$/DMCpil-02M1"><value name="number"><shadow type="math_number" id="@a0U,s1{#``N7yO2^(GI"><field name="NUM">16</field></shadow></value><next><block type="device_show_leds" id="YsP4Tl+xj_BFWgGgMYig"><field name="LEDS">`
+        # # . # # 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id=":5f4b:C_iAytnH694vqQ"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
